@@ -34,7 +34,7 @@ export default function Home(){
    
     return(  <div>
              <h1>This is Home</h1> 
-             <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">{vansCards}</div>
+             <div class="flex-auto container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">{vansCards}</div>
              </div>       
         )
 

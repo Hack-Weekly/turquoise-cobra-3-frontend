@@ -12,9 +12,14 @@ function App() {
     
     
     <BrowserRouter>
-    <nav>
-    <Link to="/">Turquois Cobra Blog</Link>
-    <Link to="/about">About</Link>
+
+    <nav className="relative flex w-full flex-wrap items-center justify-between bg-neutral-900 py-3 text-neutral-200 shadow-lg lg:flex-wrap lg:justify-start">
+     {/* This is the main Turquoise Cobra link */}
+     <ul className='list-style-none mr-auto flex flex-col pl-0 lg:flex-row'>
+      <Link to="/">Turquois Cobra Blog</Link>
+      </ul> 
+      
+      <Link to="/about">About</Link>
     </nav>
     
       <Routes>
