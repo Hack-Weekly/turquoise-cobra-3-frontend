@@ -40,10 +40,11 @@ export default function BlogPost() {
   }
 
   return (
-    <div>
+    <div className="flex flex-col gap-2">
       <h1>{blogData.name}</h1>
-      <img src={blogData.imageUrl} />
-      <p>Cost per day is is ${blogData.price}</p>
+      <p>Written by {blogData.author}</p>
+      <img src={blogData.imageUrl} className="" />
+      <p>Cost per day is ${blogData.price}</p>
       <p>{blogData.description}</p>
     </div>
   );
