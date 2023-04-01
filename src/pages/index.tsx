@@ -13,7 +13,7 @@ export default function Home() {
     return (
       <div
         key={van.id}
-        className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
+        className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:max-w-md"
       >
         <img className="rounded-t-lg" src={van.imageUrl} alt="" />
 
@@ -62,7 +62,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1>This is Home</h1>
+        <h1 className="text-center">This is Home</h1>
         <div className="flex-auto container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
           {vansCards}
         </div>
