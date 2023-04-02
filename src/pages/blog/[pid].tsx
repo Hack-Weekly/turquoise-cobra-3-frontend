@@ -43,7 +43,7 @@ export default function BlogPost() {
     <div className="flex flex-col gap-2">
       <h1>{blogData.name}</h1>
       <p>Written by {blogData.author}</p>
-      <img src={blogData.imageUrl} className="" />
+      <img src={blogData.imageUrl} className="h-auto max-w-lg rounded-lg" />
       <p>Cost per day is ${blogData.price}</p>
       <p>{blogData.description}</p>
     </div>
