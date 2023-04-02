@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Link from "next/link"
 import { useEffect, useState } from "react"
 
 export default function Home() {
@@ -63,6 +64,7 @@ export default function Home() {
       </Head>
       <main>
         <h1 className="text-center">This is Home</h1>
+        <p className="text-center"><Link href="/about">About</Link></p>
         <div className="flex flex-col flex-wrap columns-4 items-start p-6 justify-center mx-auto space-y-12 lg:flex-row lg:space-y-0 lg:gap-4">
           {vansCards}
         </div>
