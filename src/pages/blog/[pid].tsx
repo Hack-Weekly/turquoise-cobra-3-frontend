@@ -1,15 +1,15 @@
-import { useRouter } from 'next/router';
-import React, { useEffect } from 'react';
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
 
 export async function getStaticPaths() {
   return {
     paths: [
-      { params: { pid: '1' } },
-      { params: { pid: '2' } },
-      { params: { pid: '3' } },
-      { params: { pid: '4' } },
-      { params: { pid: '5' } },
-      { params: { pid: '6' } },
+      { params: { pid: "1" } },
+      { params: { pid: "2" } },
+      { params: { pid: "3" } },
+      { params: { pid: "4" } },
+      { params: { pid: "5" } },
+      { params: { pid: "6" } },
     ],
     fallback: false, // can also be true or 'blocking'
   };

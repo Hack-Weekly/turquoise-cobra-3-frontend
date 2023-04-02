@@ -1,10 +1,10 @@
-import Head from 'next/head';
-import { useEffect, useState } from 'react';
+import Head from "next/head";
+import { useEffect, useState } from "react";
 
 export default function Home() {
   const [vans, setVans] = useState([]);
   useEffect(() => {
-    fetch('/api/vans')
+    fetch("/api/vans")
       .then((res) => res.json())
       .then((data) => setVans(data.vans));
   }, []);
