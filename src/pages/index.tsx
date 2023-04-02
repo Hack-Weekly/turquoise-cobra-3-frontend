@@ -13,9 +13,9 @@ export default function Home() {
     return (
       <div
         key={van.id}
-        className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 lg:max-w-md"
+        className="bg-white border border-gray-200 rounded-lg shadow lg:max-w-xs dark:bg-gray-800 dark:border-gray-700"
       >
-        <img className="rounded-t-lg" src={van.imageUrl} alt="" />
+        <img className="rounded-t-lg w-full" src={van.imageUrl} alt="" />
 
         <div className="p-5">
           <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -63,7 +63,7 @@ export default function Home() {
       </Head>
       <main>
         <h1 className="text-center">This is Home</h1>
-        <div className="flex-auto container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
+        <div className="flex flex-col flex-wrap columns-4 items-start p-6 justify-center mx-auto space-y-12 lg:flex-row lg:space-y-0 lg:gap-4">
           {vansCards}
         </div>
       </main>
