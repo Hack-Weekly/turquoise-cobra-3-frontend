@@ -1,5 +1,5 @@
 import Link from "next/link";
-import AboutCard from "../components/AboutCard";
+import AboutCard from "../../components/AboutCard";
 
 
 export default function TheTeam() {
