@@ -1,6 +1,5 @@
 import Head from "next/head"
 import { useEffect, useState } from "react"
-import Header from "./header"
 import Blog from "./blogs"
 
 export default function Home() {
@@ -13,8 +12,8 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main>
-        <Header />                      
+        <main className="h-full bg-turquoise-100 m-0 p-0">
+          
         <Blog />
       </main>
     </>
