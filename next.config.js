@@ -4,6 +4,6 @@ const nextConfig = {
   images: {
     domains: ['robohash.org', 'assets.scrimba.com']
   }
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

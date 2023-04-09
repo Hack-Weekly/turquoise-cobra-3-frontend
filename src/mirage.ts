@@ -38,7 +38,7 @@ export function makeServer() {
         imageUrl:
           "https://assets.scrimba.com/advanced-react/react-router/reliable-red.png",
         type: "luxury",
-        author: "Cobra van Damme"
+        author: "Cobra van Damme",
       });
       server.create("van", {
         id: "4",
@@ -49,7 +49,7 @@ export function makeServer() {
         imageUrl:
           "https://assets.scrimba.com/advanced-react/react-router/dreamfinder.png",
         type: "simple",
-        author: "Carl Johnson"
+        author: "Carl Johnson",
       });
       server.create("van", {
         id: "5",
@@ -60,7 +60,7 @@ export function makeServer() {
         imageUrl:
           "https://assets.scrimba.com/advanced-react/react-router/the-cruiser.png",
         type: "luxury",
-        author: "Sia"
+        author: "Sia",
       });
       server.create("van", {
         id: "6",
@@ -71,7 +71,7 @@ export function makeServer() {
         imageUrl:
           "https://assets.scrimba.com/advanced-react/react-router/green-wonder.png",
         type: "rugged",
-        author: "Christmas Guy"
+        author: "Christmas Guy",
       });
     },
 
